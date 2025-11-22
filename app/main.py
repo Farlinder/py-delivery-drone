@@ -6,3 +6,6 @@ class Cargo:
     def __str__(self) -> str:
         return f"Cargo {self.weight}"
 # write your code here
+
+    def __repr__(self) -> str:
+        return f"Cargo {self.weight}"
